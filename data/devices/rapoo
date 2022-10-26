@@ -1,0 +1,13 @@
+# Example description file for a libratbag device
+#
+# Make sure the file has a recognizable name with a '.device' suffix
+
+[Device]
+# The kernel name of the device. This name is not used by libratbag, it is
+# used by debugging tools.
+Name=Rapoo
+
+# DeviceMatch is a triplet of bus:vid:pid, where bus is 'usb' or bluetooth'
+# and pid/vid are lowercase 4-digit hexadecimal numbers with preceding
+# zeroes.
+DeviceMatch=usb:24ae:1813
